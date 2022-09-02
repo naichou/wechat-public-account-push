@@ -4,13 +4,13 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx4bce784ecdfc603c",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "72544cb3f99ad7955c8722bc8850c09a",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "Z8cKgNGArKhvALNsaDW04V5CgdjyJfSqPxvTnLr5_Ow",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -24,14 +24,12 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '郑春旺', id: "ooX5U6l2XA5fZaWFb67X6De5ZZUs"}, 
+      {name: '张昊琪', id: "ooX5U6pLZPZ4LI3JXVwt4nI7AI1c"},  
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '张昊琪',id: "ooX5U6pLZPZ4LI3JXVwt4nI7AI1c"}, 
     ],
      
     /**
@@ -41,9 +39,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "河南",
     // 所在城市
-    CITY: "惠州",
+    CITY: "信阳",
 
     /** 重要节日相关 */
 
@@ -54,10 +52,8 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "节日", "name": "恋爱", "year": "2022", "date": "03-30"},
+
     ],
 
     /**
@@ -65,7 +61,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -75,11 +71,8 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
-      // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
+      {"keyword": "love_day", date: "2022-03-30"},
+
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
@@ -107,7 +100,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    LITERARY_PREFERENCE: "We're like diamonds in the sky"
 
 
     }
